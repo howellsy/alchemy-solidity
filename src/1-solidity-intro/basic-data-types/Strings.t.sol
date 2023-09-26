@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
-import "./booleans.sol";
+import "./Strings.sol";
 
 contract ContractTest is Test {
   Contract public myContract;
@@ -11,8 +11,11 @@ contract ContractTest is Test {
     myContract = new Contract();
   }
 
-  function testBools() public {
-    assertEq(myContract.a(), true);
-    assertEq(myContract.b(), false);
+  function testMsg1() public {
+    assertEq(myContract.msg1(), "Hello World");
+  }
+
+  function testMsg2Length() public {
+    assertGt(bytes(myContract.msg2()).length, 32);
   }
 }

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
-import "./signedInt.sol";
+import "./SignedInt.sol";
 
 contract ContractTest is Test {
   Contract public myContract;
