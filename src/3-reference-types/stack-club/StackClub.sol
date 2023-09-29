@@ -14,12 +14,13 @@ contract StackClub {
     members.push(newMemberAddress);
   }
 
-  function isMember(address searchAddress) public view returns (bool foundMember) {
+  function isMember(address searchAddress) public view returns (bool) {
     for (uint i = 0; i < members.length; i++) {
       if (members[i] == searchAddress) {
-        foundMember = true;
+        return true;
       }
     }
+    return false;
   }
 
   function removeLastMember() external onlyMember {
