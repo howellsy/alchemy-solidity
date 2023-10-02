@@ -1,6 +1,10 @@
 ## Learn Solidity Exercises - Alchemy University
 
-Study exercises for Alchemy University's [Learn Solidity course](https://www.alchemy.com/university/courses/solidity).
+Complete study exercises for Alchemy University's [Learn Solidity course](https://www.alchemy.com/university/courses/solidity).
+
+<img width="836" alt="image" src="https://github.com/howellsy/alchemy-solidity/assets/82221637/5c68a841-63f0-46f9-b22d-c104fc5f80f5">
+
+
 
 ### Week 1
 Solidity Introduction
